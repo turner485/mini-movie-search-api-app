@@ -1,0 +1,25 @@
+Props/properties are arguments that are passed into components via attributes 
+- They can be used to customize the component's behavior and appearance.
+- They are used to pass data from the parent component to the child component.
+Example code
+
+// creating the props
+
+const Person = (props) => {
+..
+..
+<h1>Name: {props.name}</h1>
+}
+..
+
+// assigning the prop
+const App = ()  => {
+  return (
+    <div className="App">
+      {/* injecting a component into a component */}
+      <Person name={John} />
+    </div>
+  );
+}
+
+useState == hook
