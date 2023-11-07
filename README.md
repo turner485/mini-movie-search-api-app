@@ -1,3 +1,5 @@
+# Haven't got around to updating the readme, standard boilerplate react for now
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
